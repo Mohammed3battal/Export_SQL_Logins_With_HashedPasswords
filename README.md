@@ -1,4 +1,4 @@
-## Script: sp_help_revlogin — Export SQL Server Logins with Passwords, SIDs, and Roles
+## Script:  Export SQL Server Logins with Passwords, SIDs, and Roles
 
 **Description**:
 This script creates two stored procedures:
@@ -24,3 +24,4 @@ The script generates `CREATE LOGIN` statements that can be used to recreate logi
 2. Execute:
    ```sql
    EXEC sp_help_revlogin;
+3. run the result in the secondary
